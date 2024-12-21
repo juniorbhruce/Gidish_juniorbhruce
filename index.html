@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You for the Birthday Wishes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Thank You for the Birthday Wishes! And gifts</h1>
+    <p>It means a lot to me. Here are some of the people who made my day special!</p>
+  </header>
+
+  <section id="contacts">
+    <h2>Special Thanks To:</h2>
+    <ul>
+      <li>Family - [Thanks for all you've done for me i really appreciate it alot]</li>
+      <li>Scald Gee - [thanks for the wishes Cousin]</li>
+      <li> Kojomonday- [Afa bro?.....Thanks for everything, the posting stuffs i appreciate]</li>
+      <li>Brother Sammy - [Thanks alot for all you've done for me ]</li>
+      <li> Anjolay Pinks - [thanks rudolph]</li>->
+      <li>THE MAIN JAY BEE - [Thanks Gee]</li>
+      <li> Gordon - [gayy boy thanks mana]</li>
+      <li>Omo-wunni(AYOMIDE) - [Thanks for caring and always checking up on me and also for all thanks]</li>
+      <li>School Friends(TESS AND APERADE) - [I really appreciate]</li>
+      <li>Keziah - [thanks]</li>
+      <li>frederica - [thanks]</li>
+      <li>Helena - [Thanks for all ]</li>
+      <li>DC Bhaddest - [Thanks ]</li>
+      <li>Kwaku Amos , Edward and the Gees - [Thanks broski's]</li>
+        <li>And to everyone who wished me a happy birthday, thank you so much!</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery-container">
+      <img src="c:\Users\JOSEPH OFFEI\Documents\IMG_2646.PNG" alt="Birthday Celebration">
+      <img src="Users\JOSEPH OFFEI\Downloads\kwame\IMG_2647.PNG" alt="With Friends">
+      <!-- Add more images -->
+    </div>
+    <div class="gallery-container">
+        <img src="" alt="Birthday Moment 1">
+        <img src="c:\" alt="Birthday Moment 2">
+        <!-- More images here -->
+      </div>
+      <section id="upload">
+        <h2>Upload Your  Photos for a magic </h2>
+        <input type="file" id="photoUpload" accept="image/*">
+        <button onclick="uploadPhoto()">Upload</button>
+      </section>
+      <section id="upload">
+        <h2>Upload My Birthday Photos</h2>
+        <input type="file" id="photoUpload" accept="image/*">
+        <button onclick="uploadPhoto()">Upload</button>
+      </section>
+      <section id="countdown">
+        <h2>Countdown to My Next Birthday</h2>
+        <div id="timer"></div>
+      </section>
+      <section id="contact-form">
+        <h2>Leave Me a Birthday Message!</h2>
+        <form id="messageForm">
+          <textarea id="message" placeholder="Write your message here..." required></textarea>
+          <br>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <br>
+          <button id="sendMessage">Send Message</button>
+        </form>
+        <div id="formResponse"></div>
+      </section>
+                        
+      
+  </section>
+  <!-- Add this inside your body tag -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+      <p>Thanks for your time and attention!</p>
+      <button id="closePopup" class="close-popup">Close</button>
+    </div>
+  </div>
+  <!-- Add this section to your HTML -->
+<section id="singingSection" class="singing-section">
+    <div class="singers">
+      <div class="Rosemond">
+        <img src="https://media.tenor.com/De6M1HsMZSEAAAAM/mariah-carey.gif" alt="Singer 1">
+        <p>🎤</p>
+      </div>
+      <div class="Kwaku">
+        <img src="https://media.tenor.com/J5p1P-E3h8EAAAAM/elf-movie-will-ferrell.gif" alt="Singer 2">
+        <p>🎤</p>
+      </div>
+      <div class="kwame">
+        <img src="https://media.tenor.com/X_q44dTM5boAAAAM/oh-christmas-tree-jack-black.gif" alt="Singer 3">
+        <p>🎤</p>
+      </div>
+    </div>
+  
+    <!-- Audio player for Christmas song -->
+    <audio id="christmasSong" controls autoplay>
+      <source src="christmas_song.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  
+    <p>Enjoy the Christmas Song! 🎶</p>
+  </section>
+  <section id="singingSection" class="singing-section">
+    <div class="video-container">
+      <!-- Embed YouTube video with autoplay and loop enabled -->
+      <iframe width="100%" height="315" src="https://youtu.be/_pAVm72WjrA?si=-kV2FBa3TS55zA57?autoplay=1&playlist=VideoID&loop=1" allowfullscreen></iframe>
+    </div>
+  
+    <p>Enjoy the Christmas Song! 🎶</p>
+    <section id="contactSection" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, here's how you can reach me:</p>
+        
+        <ul>
+          <li><strong>Email:</strong> <a href="juniorbhruce1@gmail.com">Gmail or Icloud</a></li>
+          <li><strong>Phone:</strong> +233 539 522 617</li>
+          <li><strong>Social Media:</strong>
+            <ul>
+              <li><a href="https://www.instagram.com/juniorbhruce_" target="_blank">Instagram</a></li>
+              <li><a href="https://www.twitter.com/juniorbhruce" target="_blank">Twitter</a></li>
+              <li><a href="https://www.facebook.com/in/junior_bhruce" target="_blank">facebook</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      
+  </section>
+    
+  <section id="slideshowSection" class="slideshow-section">
+  <h2>Photo & Video Slideshow</h2>
+  <div class="slideshow-container" id="slideshowContainer">
+    <!-- Slideshow items will be inserted dynamically -->
+  </div>
+</section>
+<section id="uploadSection" class="upload-section">
+    <h2>Upload Your Photos and Videos</h2>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*,video/*" required><br><br>
+      <button type="submit">Upload</button>
+    </form>
+    <p id="uploadMessage"></p>
+  </section>
+  
+
+  <footer>
+    <p>Thank you again for making my birthday special!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
